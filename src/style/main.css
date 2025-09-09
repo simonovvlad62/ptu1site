@@ -13,12 +13,10 @@
         
         .container {
             width: 1920px;
-            position: relative;
             margin: 0 auto;
         }
         
         .section {
-            position: relative;
             width: 100%;
         }
         
@@ -171,6 +169,7 @@
             font-weight: 400;
             letter-spacing: 0.32px;
             cursor: pointer;
+            text-decoration: none;
         }
         
         .nav-link:hover {
@@ -745,4 +744,173 @@
         
         .budget-accent {
             color: #F50E30;
+        }
+
+        .obzor-section {
+            background: #F4F6F8;
+            position: absolute;
+            top: 3790px;
+            width: 1919px;
+            height: 1243px;
+            justify-content: center;
+        }
+
+        .obzori {
+            left: 670px;
+            margin-top: 90px;
+            position: absolute;
+            width: 593px;
+            height: 54px;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 54px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .obzor-img {
+            margin-top: 170px;
+            display: flex;
+        }
+
+        .obzcar-1 {
+            width: 537px;
+            height: 294px;
+            margin-left: 17px;
+            margin-top: 60px;
+        }
+
+        .obzcar-2 {
+            width: 737px;
+            height: 404px;
+            margin-left: 25px;
+        }
+
+        .obzcar-3 {
+            width: 537px;
+            height: 294px;
+            margin-left: 25px;
+            margin-top: 60px;
+        }
+
+        .text1 {
+            margin: auto;
+            margin-top: 20px;
+            width: 611px;
+            height: 36px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            color: #000000;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            text-align: center;
+        }
+        
+        .pagination2 {
+            position: absolute;
+            left: 801px;
+            margin-top: 25px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .arrow2 {
+            width: 63px;
+            height: 63px;
+            position: absolute;
+            background: #FA002C;
+            border-radius: 9999px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .arrow-left2 {
+            left: 267px;
+            top: 351px;
+        }
+        
+        .arrow-right2 {
+            left: 1580px;
+            top: 351px;
+        }
+        
+        .arrow-icon2 {
+            width: 9.50px;
+            height: 19px;
+            outline: 3px white solid;
+            outline-offset: -1.50px;
+        }
+        
+        .arrow-left-icon2 {
+            position: absolute;
+            left: 290px;
+            top: 373px;
+        }
+        
+        .arrow-right-icon2 {
+            position: absolute;
+            left: 1607px;
+            top: 373px;
+        }
+
+        .yt2 {
+            position: absolute;
+            top: 353px;
+            left: 920px;
+            height: 58.67px;
+            width: 80.32px;
+        }
+
+        .tg-history {
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+        }
+
+        .tg-text {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            color: #000000;
+            margin-left: 70px;
+            margin-top: 70px;
+        }
+
+        /* сама кнопка перехода в тг */
+
+        .budget-btn2 {
+            height: 46px;
+            width: 220px;
+            padding: 8px 40px;
+            margin-left: 62px;
+            top: 262px;
+            background: #F50E30;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+
+        /* перейти в телеграм */
+        .tg-text2 {
+            width: 188px;
+            height: 28px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 28px;
+            color: #FFFFFF;
+            flex: none;
+            text-align: center;
         }
